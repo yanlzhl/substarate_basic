@@ -40,7 +40,7 @@ fn main() -> std::io::Result<()> {
         reader.read_until(b'\n', &mut buffer).expect("字节读读取失败");
 
         //将字节队列中数据转为字符打印
-        println!("输入内容为: {}",  str::from_utf8(&buffer).expect("字节流转为字符失败"));
+        println!("服务端回复为: {}",  str::from_utf8(&buffer).expect("字节流转为字符失败"));
         println!("");
     }
    
