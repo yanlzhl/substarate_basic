@@ -1,3 +1,3 @@
 fn main() {
-    println!("tcp client & server");
+    println!("Substrate basic lesson");
 }
